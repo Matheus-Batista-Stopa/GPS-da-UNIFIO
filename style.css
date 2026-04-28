@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#secaoLogo,
+#formBusca,
+#mapaERota {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#secaoLogo,
+#secaoMapa,
+#formBusca,
+#secaoRota {
+    padding-top: 30px;
+}
+
+#secaoLogo {
+    gap: 20px;
+}
+
+#mapaERota {
+    gap: 30px;
+    align-items: flex-start;
+}
+
+#detalhesRota,
+#mapaUnifio {
+    width: 45vw;
+    min-width: 20vw;
+}
+
+#detalhesRota {
+    border: solid 1px;
+    min-height: 250px;
+    margin-bottom: 30px;
+}
+
+#formBusca {
+    gap: 10px;
+}
+
+.inputBuscar,
+#botaoBuscar {
+    max-width: 250px;
+    padding: 7px;
+}
+
+#botaoBuscar {
+    background-color: rgb(91, 181, 255);
+    border: solid 1px;
+    cursor: pointer;
+}
+
+#secaoLogo,
+#formBusca,
+#mapaERota {
+    flex-direction: row;
+}
+
+#titulo {
+    font-size: 56px;
+}
+
+@media (max-width: 1000px) {
+    #secaoLogo,
+    #formBusca,
+    #mapaERota {
+        flex-direction: column;
+    }
+
+    .inputBuscar,
+    #botaoBuscar {
+        width: 250px;
+        padding: 7px;
+    }
+
+    #detalhesRota,
+    #mapaUnifio {
+        width: 80vw;
+        min-width: 200px;
+    }
+
+    #titulo {
+        font-size: 36px;
+    }
+}
