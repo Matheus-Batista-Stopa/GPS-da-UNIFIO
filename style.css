@@ -89,11 +89,11 @@ body {
 
     #detalhesRota,
     #mapaUnifio {
-        width: 80vw;
+        width: 90vw;
         min-width: 200px;
     }
 
     #titulo {
-        font-size: 36px;
+        font-size: 3rem;
     }
 }
