@@ -18,6 +18,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    text-align: center;
 }
 
 #secaoLogo,
@@ -29,6 +30,10 @@ body {
 
 #secaoLogo {
     gap: 20px;
+}
+
+#logo {
+    width: 280px;
 }
 
 #mapaERota {
